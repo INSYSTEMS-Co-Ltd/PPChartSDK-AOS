@@ -41,10 +41,10 @@ afterEvaluate {
                 from(components["release"])
                 groupId = "com.github.INSYSTEMS-Co-Ltd"
                 artifactId = "PPChartSDK-AOS"
-                version = "0.1.0"
+                version = "0.1.1"
 
                 pom {
-                    name.set("PPChartSDK-AOS")
+                    name.set("TESTSDK")
                     description.set("description")
                 }
             }
@@ -54,10 +54,10 @@ afterEvaluate {
                 from(components["debug"])
                 groupId = "com.github.INSYSTEMS-Co-Ltd"
                 artifactId = "PPChartSDK-AOS"
-                version = "0.1.0"
+                version = "0.1.1"
 
                 pom {
-                    name.set("PPChartSDK-AOS")
+                    name.set("TESTSDK")
                     description.set("description")
                 }
             }
